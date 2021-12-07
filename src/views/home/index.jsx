@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 
 
 const Home = () => {
-  useDocumentTitle('Salinaka | Home');
+  useDocumentTitle('ShopLah | Home');
   useScrollTop();
 
   const {
@@ -32,22 +32,22 @@ const Home = () => {
       <div className="home">
         <div className="banner">
           <div className="banner-desc">
-            <h1 className="text-thin">
+            {/* <h1 className="text-thin">
               <strong>See</strong>
               &nbsp;everything with&nbsp;
               <strong>Clarity</strong>
-            </h1>
-            <p>
+            </h1> */}
+            {/* <p>
               Buying eyewear should leave you happy and good-looking, with money in your pocket.
               Glasses, sunglasses, and contacts—we’ve got your eyes covered.
-            </p>
+            </p> */}
             <br />
             <Link to={SHOP} className="button">
               Shop Now &nbsp;
               <ArrowRightOutlined />
             </Link>
           </div>
-          <div className="banner-img"><img src={bannerImg} alt="" /></div>
+          {/* <div className="banner-img"><img src={bannerImg} alt="" /></div> */}
         </div>
         <div className="display">
           <div className="display-header">

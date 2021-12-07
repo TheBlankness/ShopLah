@@ -21,15 +21,15 @@ const Footer = () => {
             <a href="https://github.com/jgudo">JULIUS GUEVARRA</a>
           </span>
         </strong>
-      </div>
+      </div> 
       <div className="footer-col-2">
-        <img alt="Footer logo" className="footer-logo" src={logo} />
+         {/* <img alt="Footer logo" className="footer-logo" src={logo} /> */}
         <h5>
           &copy;&nbsp;
           {new Date().getFullYear()}
         </h5>
       </div>
-      <div className="footer-col-3">
+       <div className="footer-col-3">
         <strong>
           <span>
             Fork this project &nbsp;
